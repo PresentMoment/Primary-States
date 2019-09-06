@@ -45,7 +45,7 @@ export default class Canidates extends Component {
   }
 
   render() {
-    let renderImg = "";
+    let renderImg = imgArr[20];
     for (let i = 0; i < this.state.canidates.length; i++) {
       if (this.frontRunner === this.state.canidates[i].name) {
         renderImg = imgArr[i];
@@ -53,11 +53,17 @@ export default class Canidates extends Component {
         this.renderImg = null;
       }
     }
-    console.log(renderImg);
     return (
       <div className="canidates">
+        <div className="photo">
+          <img src={renderImg} alt="" />
+        </div>
         <div className="frontRunner">
-          {this.frontRunner ? <h2>{this.frontRunner}</h2> : <h2>{` `}</h2>}
+          {this.frontRunner ? (
+            <h1>{this.frontRunner}</h1>
+          ) : (
+            <h1>No winner yet</h1>
+          )}
         </div>
         <ul style={{ listStyleType: "none" }}>
           {this.state.canidates.map(canidate => (
@@ -70,7 +76,6 @@ export default class Canidates extends Component {
             </li>
           ))}
         </ul>
-        <img src={renderImg} alt="" />
       </div>
     );
   }

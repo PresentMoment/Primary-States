@@ -1,23 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
 .App {
   text-align: left;
   text-decoration: none;
   list-style: none;
+  display: flex;
 }
 
 .canidates {
-  margin: 20% 20% 0 30%;
-  background-color: rgb(115, 168, 247);
+  margin: 0 auto;
+  background-color: rgb(134, 187, 210);
+  width: 60%;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
 }
 
 .frontRunner {
-  background-color: rgb(240, 113, 113);
+  background-color: rgb(199, 74, 74);
+  margin-top: -21px;
+  font-family: "Oswald", sans-serif;
+  color: #fff;
 }
 
-.frontRunner h2 {
-  margin-left: 20%;
+.frontRunner h1 {
+  text-align: center;
+  -webkit-text-stroke-width: 0.04px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 1px 3px #000000;
+}
+
+.photo {
+  display: flex;
+}
+
+.photo img {
+  margin: 0 auto;
+}
+
+li {
+  width: 60%;
+  border-bottom: 1px solid rgb(104, 104, 104);
+  margin: 0 auto;
 }
 
 button {
-  margin: 0 30% 0 0;
   float: right;
 }

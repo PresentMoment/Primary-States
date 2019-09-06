@@ -18,6 +18,7 @@ import steyer from "../Images/steyer.jpg";
 import warren from "../Images/warren.jpg";
 import williamson from "../Images/williamson.jpg";
 import yang from "../Images/yang.jpg";
+import anon from "../Images/anon.png";
 
 export default [
   bennet,
@@ -39,5 +40,6 @@ export default [
   steyer,
   warren,
   williamson,
-  yang
+  yang,
+  anon
 ];
