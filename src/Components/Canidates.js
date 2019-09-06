@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import imgArr from "./Images";
 
 export default class Canidates extends Component {
   constructor(props) {
@@ -18,7 +19,7 @@ export default class Canidates extends Component {
         { id: 9, name: "Kamala Harris", votes: 0 },
         { id: 10, name: "Amy Klobuchar", votes: 0 },
         { id: 11, name: "Wayne Messam", votes: 0 },
-        { id: 12, name: "Beta O'Rourke", votes: 0 },
+        { id: 12, name: "Beto O'Rourke", votes: 0 },
         { id: 13, name: "Tim Ryan", votes: 0 },
         { id: 14, name: "Bernie Sanders", votes: 0 },
         { id: 15, name: "Joe Sestak", votes: 0 },
@@ -44,7 +45,15 @@ export default class Canidates extends Component {
   }
 
   render() {
-    console.log(this.frontRunner);
+    let renderImg = "";
+    for (let i = 0; i < this.state.canidates.length; i++) {
+      if (this.frontRunner === this.state.canidates[i].name) {
+        renderImg = imgArr[i];
+      } else {
+        this.renderImg = null;
+      }
+    }
+    console.log(renderImg);
     return (
       <div className="canidates">
         <div className="frontRunner">
@@ -61,6 +70,7 @@ export default class Canidates extends Component {
             </li>
           ))}
         </ul>
+        <img src={renderImg} alt="" />
       </div>
     );
   }
