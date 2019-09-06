@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Primary-States/static/css/main.05cf14c5.chunk.css",
+    "main.css": "/Primary-States/static/css/main.b937ff61.chunk.css",
     "main.js": "/Primary-States/static/js/main.2d1634bf.chunk.js",
     "main.js.map": "/Primary-States/static/js/main.2d1634bf.chunk.js.map",
     "runtime~main.js": "/Primary-States/static/js/runtime~main.58597f88.js",
@@ -8,9 +8,9 @@
     "static/js/2.2e0f4ff4.chunk.js": "/Primary-States/static/js/2.2e0f4ff4.chunk.js",
     "static/js/2.2e0f4ff4.chunk.js.map": "/Primary-States/static/js/2.2e0f4ff4.chunk.js.map",
     "index.html": "/Primary-States/index.html",
-    "precache-manifest.593f2115e6a9b38098d949829ae784ad.js": "/Primary-States/precache-manifest.593f2115e6a9b38098d949829ae784ad.js",
+    "precache-manifest.d77d7b39ea58ca60b24672477d433577.js": "/Primary-States/precache-manifest.d77d7b39ea58ca60b24672477d433577.js",
     "service-worker.js": "/Primary-States/service-worker.js",
-    "static/css/main.05cf14c5.chunk.css.map": "/Primary-States/static/css/main.05cf14c5.chunk.css.map",
+    "static/css/main.b937ff61.chunk.css.map": "/Primary-States/static/css/main.b937ff61.chunk.css.map",
     "static/media/anon.png": "/Primary-States/static/media/anon.b0b851d7.png",
     "static/media/bennet.jpg": "/Primary-States/static/media/bennet.2efc0bbe.jpg",
     "static/media/biden.jpg": "/Primary-States/static/media/biden.05d4ba26.jpg",
